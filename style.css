@@ -1,0 +1,403 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+.logo svg {
+    width: 350px;
+    /* padding-right: 500px; */
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 1px 2px 10px yellow;
+}
+
+.content-1 {
+    display: flex;
+    background-image: url(images/cars/carerra\ red.jpg);
+    height: 100vh;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: end;
+    padding-right: 50px;
+}
+
+.carerra-s {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.carerra-s p {
+    font-size: 25px;
+    font-family: serif;
+}
+
+.carerra-s:hover {
+    color: rgb(255, 0, 43);
+    transition: all ease-in-out 0.3s;
+    font-weight: bolder;
+}
+
+.btn-1 {
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 50px;
+    /* justify-content: center; */
+    color: white;
+    background-color: blue;
+    border: hidden;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn-1:hover {
+    color: blue;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 1px 5px 10px blue;
+}
+
+.btn-2 {
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 50px;
+    /* justify-content: center; */
+    color: blue;
+    background-color: white;
+    border: hidden;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn-2:hover {
+    color: white;
+    background-color: blue;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 1px 5px 10px white;
+}
+
+.btns {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.content-2 {
+    display: flex;
+    background-image: url(images/cars/gt3\ rs.avif);
+    height: 100vh;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: end;
+    padding-right: 50px;
+}
+
+.gt3 {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.gt3 p {
+    font-size: 25px;
+    font-family: serif;
+}
+
+.gt3:hover {
+    color: rgb(255, 0, 43);
+    transition: all ease-in-out 0.3s;
+    font-weight: bolder;
+}
+
+.content-3 {
+    display: flex;
+    background-image: url(images/cars/99x.jpeg);
+    height: 100vh;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: end;
+    padding-right: 50px;
+}
+
+.x99 {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.x99 p {
+    font-size: 25px;
+    font-family: serif;
+}
+
+.x99:hover {
+    color: rgb(255, 0, 43);
+    transition: all ease-in-out 0.3s;
+    font-weight: bolder;
+}
+
+.mid-head {
+    background-color: white;
+    color: black;
+    /* margin-top: 0%; */
+    background-size: cover;
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 250px;
+}
+.p718 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/cars/porsche\ 718.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 38%;
+}
+
+.p718-1 {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 12px;
+    height: 40vh;
+}
+
+.p718-1:hover {
+    /* color: rgb(255, 0, 43); */
+    color: rgb(0, 255, 255);
+    text-shadow: 1px 5px 10px rgb(0, 255, 255);
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btns-2 {
+    position: relative;
+    top: -60px;
+    /* left: -10px; */
+    right: -5px;
+}
+.btn1 {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #fff;
+    border: none;   
+}
+.btn2{
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid white; 
+    color: white;
+}
+.btn2:hover{
+    border: 1px solid rgb(255, 0, 43);
+    color: rgb(255, 0, 43);
+    transition: all 0.1s ease-in-out;
+}
+.btn1:hover{
+    color: white;
+    background-color: rgb(255, 0, 43);
+    border: none;
+    font-weight: bold;
+    transition: all 0.1s ease-in-out;
+}
+.p911{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/cars/911.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 38%;
+}
+.p911-1{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 12px;
+    height: 40vh;
+}
+.p911-1:hover{
+    color: rgb(255, 0, 255);
+    text-shadow: 1px 5px 10px rgb(255, 0, 255);
+    transition: all 0.3s ease-in-out;
+}
+.taycan{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/cars/can..jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 38%;
+}
+.taycan-1{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+    height: 40vh;
+}
+.taycan-1:hover{
+    color: rgb(96, 161, 0);
+    text-shadow: 1px 5px 10px rgba(85, 141, 0, 0.541);
+    transition: all 0.3s ease-in-out;
+}
+.panamera{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/cars/panamera.jpeg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 38%;
+    background-position: center;
+}
+.panamera-1{
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 1px;
+    height: 40vh;
+}
+.panamera-1:hover{
+    color: rgb(93, 149, 8);
+    transition: all 0.3s ease-in-out;
+    text-shadow: 1px 5px 10px rgb(93, 149, 8);
+}
+.macan{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/cars/macan);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 38%;
+    background-position: center;
+}
+.macan-1{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 1px;
+    height: 40vh;
+}
+.macan-1:hover{
+    color: red;
+    text-shadow: 1px 5px 10px red;
+    transition: all 0.3s ease-in-out;
+}
+.cayene{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/cars/cayene.jpeg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 38%;
+    background-position: center;
+}
+.cayene-1{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 1px;
+    height: 40vh;
+}
+.cayene-1:hover{
+    color: orange;
+    text-shadow: 1px 5px 10px orangered;
+    transition: all 0.3s ease-in-out;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    overflow: hidden;
+}
+.container-1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 20vh;
+    cursor: pointer;
+}
+.container-1-1{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+}
+.footer{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    /* text-align: center; */
+    /* padding-left: px; */
+    padding-right: 50px;
+}
+.content2{
+    /* display: flex; */
+    align-self: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.content2:hover{
+    color: rgb(255, 0, 43);
+    border: 1px solid rgb(255, 0, 43);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
